@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pharmacovigilance Course | Evidence Based Pharmacy Academy</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Core styles borrowed from home page */
+    :root {
+      --primary1:#1e3c72; --primary2:#2a5298; --accent:#ffd700; --bg:#f8f9fa; --text:#333;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text); }
+
+    header { position: sticky; top: 0; z-index: 1000; background: linear-gradient(135deg, var(--primary1), var(--primary2)); color:#fff; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+    nav { max-width: 1200px; margin: 0 auto; padding: 0.9rem 2rem; display:flex; align-items:center; justify-content:space-between; }
+    .logo { display:flex; align-items:center; gap:.6rem; font-weight:700; color:#fff; text-decoration:none; }
+    .logo i { font-size: 1.6rem; }
+    .nav-links { display:flex; list-style:none; gap:1.2rem; }
+    .nav-links a { color:#fff; text-decoration:none; font-weight:500; }
+    .nav-links a:hover { color: var(--accent); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+
+    .hero { padding: 80px 1rem 40px; color:#fff; background: linear-gradient(135deg, var(--primary1) 0%, var(--primary2) 100%); text-align: left; }
+    .hero h1 { font-size: 2.4rem; margin-bottom:.6rem; }
+    .hero p { font-size: 1.1rem; opacity:.95; }
+
+    .grid { display:grid; gap:1.5rem; }
+    .two-col { grid-template-columns: 2fr 1fr; }
+    @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+
+    .card { background:#fff; border-radius:10px; box-shadow:0 5px 20px rgba(0,0,0,.08); padding:1.25rem; }
+    h2.section-title { color: var(--primary1); font-size: 1.8rem; margin: 1.5rem 0 .8rem; }
+    h3 { color: var(--primary2); margin: 1rem 0 .5rem; }
+
+    .badge { display:inline-flex; align-items:center; gap:.4rem; background:#eef2ff; color:#334; padding:.35rem .6rem; border-radius:999px; font-size:.9rem; margin-right:.4rem; }
+    .meta { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.6rem; }
+    .btn { display:inline-block; text-decoration:none; font-weight:700; border-radius:999px; padding:.8rem 1.2rem; transition:.2s; }
+    .btn-primary { background: var(--accent); color: var(--primary1); }
+    .btn-primary:hover { filter: brightness(1.05); transform: translateY(-2px); }
+    .btn-outline { border:2px solid var(--accent); color:#333; }
+    .btn-outline:hover { background: var(--accent); color: var(--primary1); }
+
+    ul.checklist { list-style:none; }
+    ul.checklist li { margin:.45rem 0; display:flex; gap:.6rem; }
+    ul.checklist li i { color: #2a5298; margin-top:.2rem; }
+
+    .footer { background:#1e3c72; color:#fff; margin-top: 40px; }
+    .footer .inner { max-width: 1200px; margin: 0 auto; padding: 1.2rem 2rem; display:flex; justify-content:space-between; align-items:center; gap: 1rem; }
+    .social a { width: 38px; height: 38px; display:inline-flex; align-items:center; justify-content:center; border-radius:50%; background: rgba(255,255,255,.12); color:#fff; margin-left:.4rem; }
+    .social a:hover { background: var(--accent); color: #1e3c72; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="index.html"><i class="fas fa-graduation-cap"></i> <span>EBPA</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html#courses">Courses</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#testimonials">Testimonials</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Pharmacovigilance Certificate Program</h1>
+      <p>Master drug safety monitoring, adverse event reporting, signal detection, and regulatory compliance.</p>
+      <div class="meta" style="margin-top: .8rem;">
+        <span class="badge"><i class="fas fa-clock"></i> 12 Weeks</span>
+        <span class="badge"><i class="fas fa-signal"></i> Intermediate</span>
+        <span class="badge"><i class="fas fa-globe"></i> Offline</span>
+        <span class="badge"><i class="fas fa-certificate"></i> Certificate</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="container" style="margin-top: 24px;">
+    <div class="grid two-col">
+      <!-- Left column: details -->
+      <div class="card">
+        <h2 class="section-title">What You'll Learn</h2>
+        <ul class="checklist">
+          <li><i class="fas fa-check"></i> Principles of pharmacovigilance and risk management</li>
+          <li><i class="fas fa-check"></i> Adverse Event (AE) and Serious Adverse Event (SAE) reporting</li>
+          <li><i class="fas fa-check"></i> Case processing workflow and MedDRA coding</li>
+          <li><i class="fas fa-check"></i> Signal detection and benefit–risk evaluation</li>
+          <li><i class="fas fa-check"></i> Regulatory frameworks: ICH, CIOMS, CDSCO, EMA, FDA</li>
+          <li><i class="fas fa-check"></i> Safety in clinical trials and post-marketing surveillance</li>
+        </ul>
+
+        <h2 class="section-title">Syllabus Outline</h2>
+        <div class="grid" style="grid-template-columns: 1fr 1fr;">
+          <div>
+            <h3>Module 1: Foundations</h3>
+            <ul class="checklist">
+              <li><i class="fas fa-book"></i> History, terminology, lifecycle</li>
+              <li><i class="fas fa-book"></i> Global PV systems</li>
+            </ul>
+            <h3>Module 2: Case Intake & Processing</h3>
+            <ul class="checklist">
+              <li><i class="fas fa-book"></i> Sources, triaging, follow-up</li>
+              <li><i class="fas fa-book"></i> Coding, narratives, causality</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Module 3: Signal Management</h3>
+            <ul class="checklist">
+              <li><i class="fas fa-book"></i> Detection methods and tools</li>
+              <li><i class="fas fa-book"></i> Assessment and validation</li>
+            </ul>
+            <h3>Module 4: Regulatory & Compliance</h3>
+            <ul class="checklist">
+              <li><i class="fas fa-book"></i> PBRER/PSUR, DSUR, RMP</li>
+              <li><i class="fas fa-book"></i> Inspections and audits</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 class="section-title">Who Should Enroll</h2>
+        <p>Pharmacists, life science graduates, clinical research professionals, drug safety associates, and anyone seeking a career in pharmacovigilance.</p>
+
+        <h2 class="section-title">Certification</h2>
+        <p>Upon successful completion, you will receive a verifiable certificate from Evidence Based Pharmacy Academy.</p>
+      </div>
+
+      <!-- Right column: summary/enroll -->
+      <aside class="card">
+        <h3 style="margin-top:0;">Course Summary</h3>
+        <ul class="checklist">
+          <li><i class="fas fa-calendar"></i> Duration: 12 Weeks</li>
+          <li><i class="fas fa-video"></i> Format: Live + Self-paced</li>
+          <li><i class="fas fa-language"></i> Language: English</li>
+          <li><i class="fas fa-star"></i> Level: Intermediate</li>
+        </ul>
+        <div style="margin-top: .6rem; font-weight: 700; color:#1e3c72;">
+            Fee: ₹ 25,000/- (all inclusive)
+        </div>
+        <div style="margin: .4rem 0 1rem; font-size: .95rem; color:#444;">
+            Includes registration, learning materials, assessments, and certification.
+        </div>
+        <div style="margin: 1rem 0;">
+          <a href="index.html#contact" class="btn btn-primary" style="width:100%; text-align:center;">Enroll / Enquire</a>
+        </div>
+
+        <h3>Contact</h3>
+        <p style="margin:.4rem 0 0;"><strong>Evidence Based Pharmacy Academy</strong><br>
+        Sarita Vihar, Delhi 110076, IN<br>
+        +91 9289208754<br>
+        ebpa18@gmail.com</p>
+
+        <div class="meta" style="margin-top:.8rem;">
+          <a class="btn btn-outline" href="index.html#courses"><i class="fas fa-arrow-left"></i> Back to Courses</a>
+        </div>
+      </aside>
+    </div>
+
+    <section class="card" style="margin-top: 1.25rem;">
+      <h2 class="section-title">FAQs</h2>
+      <details style="margin:.6rem 0;">
+        <summary><strong>Is there any prerequisite?</strong></summary>
+        <p>Basic knowledge of pharmacy/clinical research is recommended but not mandatory.</p>
+      </details>
+      <details style="margin:.6rem 0;">
+        <summary><strong>Do I get placement assistance?</strong></summary>
+        <p>You will receive guidance on resume building, interview preparation, and referrals where applicable.</p>
+      </details>
+      <details style="margin:.6rem 0;">
+        <summary><strong>What is the assessment process?</strong></summary>
+        <p>Module quizzes, assignments, and a final assessment. Certificate awarded upon passing.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <div>© 2025 Evidence Based Pharmacy Academy</div>
+      <div class="social">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
